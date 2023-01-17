@@ -1,5 +1,6 @@
 import BuyersCards from "./components/BuyersCards";
 import StarCards from "./components/StarCards";
+import cardData from "../../public/data.json";
 
 // since i'm not running an oficial "server", it fails to fetch on build time
 // const api = "http://localhost:3000/data.json";
