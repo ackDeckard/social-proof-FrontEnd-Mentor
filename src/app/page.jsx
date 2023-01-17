@@ -1,12 +1,12 @@
 import BuyersCards from "./components/BuyersCards";
 import StarCards from "./components/StarCards";
 
-const api = "http://localhost:3000/data.json";
-// const api = "https://jsonplaceholder.typicode.com/posts";
+// since i'm not running an oficial "server", it fails to fetch on build time
+// const api = "http://localhost:3000/data.json";
 
 const loadDataFromServer = async () => {
-  const response = await fetch(api);
-  return response.json();
+  //const response = await fetch(api);
+  return cardData;
 };
 
 const App = async () => {
